@@ -60,8 +60,8 @@ const Home = () => {
 	}, []);
 
 	useEffect(() => {
-		console.log(Homework);
-	}, [Homework]);
+		PutApp ();
+	}, []);
 
 	return (
 		<div className="text-center mt-5">
